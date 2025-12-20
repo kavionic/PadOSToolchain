@@ -1,0 +1,9 @@
+[submodule "newlib-pados"]
+	path = newlib-pados
+	url = git@github.com:kavionic/newlib-pados.git
+[submodule "binutils-gdb-pados"]
+	path = binutils-gdb-pados
+	url = git@github.com:kavionic/binutils-gdb-pados.git
+[submodule "gcc-pados"]
+	path = gcc-pados
+	url = git@github.com:kavionic/gcc-pados.git
