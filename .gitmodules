@@ -1,9 +1,20 @@
 [submodule "newlib-pados"]
 	path = newlib-pados
-	url = git@github.com:kavionic/newlib-pados.git
-[submodule "binutils-gdb-pados"]
-	path = binutils-gdb-pados
-	url = git@github.com:kavionic/binutils-gdb-pados.git
+	url = https://github.com/kavionic/newlib-pados.git
+	branch = main
+[submodule "binutils-pados"]
+	path = binutils-pados
+	url = https://github.com/kavionic/binutils-gdb-pados.git
+	branch = pados-binutils-2.47
+[submodule "gdb-pados"]
+	path = gdb-pados
+	url = https://github.com/kavionic/binutils-gdb-pados.git
+	branch = pados-gdb-18.1
 [submodule "gcc-pados"]
 	path = gcc-pados
-	url = git@github.com:kavionic/gcc-pados.git
+	url = https://github.com/kavionic/gcc-pados.git
+	branch = base/gcc-15.2.0
+[submodule "openocd-pados"]
+	path = openocd-pados
+	url = https://github.com/kavionic/openocd-pados.git
+	branch = pados-rtos
