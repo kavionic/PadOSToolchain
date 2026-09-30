@@ -5,6 +5,6 @@ SCRIPT_DIR="$(dirname -- "$SCRIPT_PATH")"
 
 BINARY_DIR="$(cd -- "${SCRIPT_DIR}" &> /dev/null && pwd)/Build"
 
-cd ${BINARY_DIR}/binutils-gdb-pados
+cd "${BINARY_DIR}/binutils-pados" || exit 1
 
 make -j 8

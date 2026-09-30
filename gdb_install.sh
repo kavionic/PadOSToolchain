@@ -5,6 +5,6 @@ SCRIPT_DIR="$(dirname -- "$SCRIPT_PATH")"
 
 BINARY_DIR="$(cd -- "${SCRIPT_DIR}" &> /dev/null && pwd)/Build"
 
-cd "${BINARY_DIR}/binutils-pados" || exit 1
+cd "${BINARY_DIR}/gdb-pados" || exit 1
 
-make -j 8 install
+make -j 8 install-gdb
